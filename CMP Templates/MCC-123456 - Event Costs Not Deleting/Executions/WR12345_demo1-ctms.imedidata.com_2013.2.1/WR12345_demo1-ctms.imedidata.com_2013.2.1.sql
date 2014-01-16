@@ -4,9 +4,9 @@
 -- Creation Date:	2013-09-26
 -- Updated by:		
 -- Update Date:		
--- Work Request: 	12978
--- AR#:				1-461587169
--- URL: 			heartware-ctms.imedidata.com
+-- Work Request: 	242334
+-- AR#:				6543235
+-- URL: 			demo1-ctms.imedidata.com
 --************************************************************************************************
  
 --************************************************************************************************
@@ -34,6 +34,6 @@ WHERE dt.active='Y' and X.ACTIVITY_DFN_ID IS NULL
 
 /*
 --
--- Expected Results: 760 row(s) affected
+-- Expected Results: 500 row(s) affected
 --
 */
