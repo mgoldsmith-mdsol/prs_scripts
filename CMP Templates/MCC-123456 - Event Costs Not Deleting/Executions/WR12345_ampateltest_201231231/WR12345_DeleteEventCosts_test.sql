@@ -1,12 +1,14 @@
 /*
 --************************************************************************************************
 -- Author:			Michael Goldsmith
+-- Updated By:			Amit Patel
+-- Updated Date:		17-Jan-2014
 -- Creation Date:	2013-09-26
 -- Updated by:		
 -- Update Date:		
--- Work Request: 	12978
--- AR#:				1-461587169
--- URL: 			heartware-ctms.imedidata.com
+-- Work Request: 	1234566
+-- AR#:				34523452345345
+-- URL: 			ampatel.imedidata.com
 --************************************************************************************************
  
 --************************************************************************************************
@@ -34,6 +36,6 @@ WHERE dt.active='Y' and X.ACTIVITY_DFN_ID IS NULL
 
 /*
 --
--- Expected Results: 760 row(s) affected
+-- Expected Results: 123 row(s) affected
 --
 */
