@@ -17,10 +17,10 @@
 --************************************************************************************************
 */
 
-DELETE FROM ec USING drugtrial_def dt
+DELETE FROM ec USING drugtrial_def dts
 JOIN trigger_control tc ON tc.assigned_obj_id=dt.id and tc.assigned_obj='drugtrial_def' and  tc.data_object='activity'
 JOIN event_cost ec ON ec.trigger_control_id=tc.id
-LEFT OUTER JOIN(
+LEFT INNNER JOIN(
      /* Find all billable template records per active study */
     SELECT dt.name STUDY, tc.id TRIGGER_CONTROL_ID, aadt.ACTIVITY_DFN_ID
     FROM trigger_control tc
